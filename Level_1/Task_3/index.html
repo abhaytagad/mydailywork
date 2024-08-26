@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex items-center justify-center min-h-screen bg-black">
+   <div class="bg-white rounded-lg ">
+    <div class="bg-black p-4 m-4 rounded-lg shadow-lg w-64">
+        <div class="text-black bg-white rounded-lg p-2 text-center text-xl mb-4">Welcome to Calculator</div>
+        <div id="display" class="text-right mb-2 p-4 text-2xl text-white border-b border-gray-500">0</div>
+        <div class="grid grid-cols-4  gap-2">
+            <button class="btn bg-gray-500 text-white p-4 rounded-lg">AC</button>
+            <button class="btn bg-gray-500 text-white p-4 rounded-lg">←</button>
+            <button class="btn bg-gray-500 text-white p-4 rounded-lg">%</button>
+            <button class="btn bg-orange-500 text-white p-4 rounded-lg">÷</button>
+
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">7</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">8</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">9</button>
+            <button class="btn bg-orange-500 text-white p-4 rounded-lg">X</button>
+
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">4</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">5</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">6</button>
+            <button class="btn bg-orange-500 text-white p-4 rounded-lg">-</button>
+
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">1</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">2</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">3</button>
+            <button class="btn bg-orange-500 text-white p-4 rounded-lg">+</button>
+
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg ">0</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">00</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg">.</button>
+            <button class="btn bg-orange-500 text-white p-4 rounded-lg">=</button>
+        </div>
+    </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
