@@ -1,9 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-Task_1/node_modules/
-Task_2/node_modules/
-Task_3/node_modules/
+C:\Users\omshi\Desktop\mydailywork\Level_1\Task_1\node_modules
+C:\Users\omshi\Desktop\mydailywork\Level_1\Task_2\node_modules
+C:\Users\omshi\Desktop\mydailywork\Level_1\Task_3\node_modules
 /.pnp
 .pnp.js
 
